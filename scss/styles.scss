@@ -1,0 +1,35 @@
+//contario scss
+/*comentario en scss y css*/
+
+//variables
+$color-principal: #f1f1f1;
+
+$medida-principal: 200px;
+//super poderes de sas
+
+//nesting (anidado)
+
+//operaciones matematicas, sumas, restas, division o multiplicacion
+
+
+header{
+    background-color:$color-principal;
+    width: 3 rem;
+    padding: $medida-principal +200px;//operacion de suma
+    h1{
+        color: black;
+        font-size: 2rem;
+    }
+    .menu{
+        background-color: aliceblue;
+        padding: 1rem;
+        ul{
+            color: yellow;
+            li{
+               color: green; 
+            }
+        }
+
+    }
+
+}

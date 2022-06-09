@@ -1,0 +1,15 @@
+/*comentario en scss y css*/
+header {
+  background-color: #f1f1f1;
+  width: 3 rem;
+  padding: 400px; }
+  header h1 {
+    color: black;
+    font-size: 2rem; }
+  header .menu {
+    background-color: aliceblue;
+    padding: 1rem; }
+    header .menu ul {
+      color: yellow; }
+      header .menu ul li {
+        color: green; }
